@@ -18,11 +18,7 @@ import java.util.Scanner;
             } else {
                 System.out.println("Neither string is a substring of the other.");
             }
-            System.out.println("Do you want to check again? (yes/no)");
-            String choice = scanner.nextLine();
-            if (choice.equalsIgnoreCase("no")) {
-                loop = false;
-            }
+            
         }
         }
     }

@@ -1,0 +1,21 @@
+public class tkambalmodule6Assignment {
+  public static void main(String[] args) {
+    int n = 7;
+    f(n);
+  }
+  
+  public static void f(int n) {
+    for (int i = 0; i < n; i++) {
+        for (int l = n - i; l > 1; l--) {
+            System.out.print("    "); 
+        }
+        for (int j = 0; j <= i; j++) {
+            System.out.printf("%3d ", (int) Math.pow(2, j)); 
+        }
+        for (int k = i - 1; k >= 0; k--) {
+            System.out.printf("%3d ", (int) Math.pow(2, k)); 
+        }
+        System.out.println();
+    }
+  }
+}
